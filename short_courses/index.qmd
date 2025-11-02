@@ -1,0 +1,13 @@
+---
+title: "Short Courses"
+listing: 
+  contents: short_courses.yml
+  filter-ui: false
+  sort: "date desc"
+  type: table
+  fields: [date, title, description, Institution, Duration]
+  date-format: YYYY
+#  categories: true
+#  feed:
+#    categories: [news, posts]
+---

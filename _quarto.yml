@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dirceu S. Reis Jr."
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: teaching.qmd
+        text: Teaching
+      - href: projects/index.qmd
+        text: Projects
+      - href: short_courses/index.qmd
+        text: Short Courses
+      - href: blog/index.qmd
+        text: Blog
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - default
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+

@@ -1,0 +1,10 @@
+---
+title: "New home for the blog"
+author: "Dirceu S. Reis Jr."
+date: "05/21/2025"
+image: true
+categories: 
+  - General
+---
+
+I decided to start a new website and a new blog, something that I have more control over the design and structure

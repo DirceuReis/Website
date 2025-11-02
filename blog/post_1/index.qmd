@@ -1,0 +1,11 @@
+---
+title: "First post"
+author: "Dirceu S. Reis Jr."
+date: "05/18/2025"
+image: true
+categories: 
+  - MCMC
+  - Climate
+---
+
+## This morning I was preparing myself for a long journey...

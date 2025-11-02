@@ -1,0 +1,95 @@
+- title: Applied Multivariate Analysis with focus on Precipitaiton and Streamflow
+  description: >
+     Principal Componentes Analysis; Canonical Correlaion Analysis; Multivariate
+     Analysis of Variance; Multivariate Forecast Models.
+  date: "12/11/2024"   
+  Institution: FUNCEME
+  Duration: 16 hours
+
+- title: "Storm Water Management: Introductory module - Hydrology"
+  description: >
+     Basic concepts; Main approaches to generate hydrographs; IDF curves; 
+     Precipitation reduction factors; Storm temporal distribution; Rational method;
+     Effective rainfall; Generation of project hydrographs.
+  date: "09/01/2018"
+  Institution: ADASA
+  Duration: 20 hours
+  
+- title: "Improvements on the Design and Construction of Dams - Hydrology Foundations"
+  description: >
+     Given to employees of the Secretary of Water Resources of the State of Ceará, Brazil.
+  date: "01/01/2008"
+  Institution: University of Fortaleza - UNIFOR
+  Duration: 28 hours
+  
+- title: "Numerical Modeling Visualization and Analysis Tools: Matlab Module"
+  description: >
+     MatLab as a tool for analysis and visualization on numerical modeling of the 
+     atmosphere.
+  date: "01/01/2006"
+  Institution: Funceme
+  Duration: 12 hours
+
+- title: "Numerical Modeling Visualization and Analysis Tools: Matlab Module"
+  description: >
+     MatLab as a tool for analysis and visualization on numerical modeling of the 
+     atmosphere.
+  date: "01/01/2007"
+  Institution: Funceme
+  Duration: 12 hours
+
+
+- title: "Trend Detection in Hydrometeorological Variables"
+  description: >
+     Description of the problem; Revision of statistical concepts; Analysis without and with 
+     temporal correlation and with long-term persistance; Regional analysis  - false
+     discovery rate and other techniques.
+  date: "09/01/2013"
+  Institution: Brazilian National Water Agency - ANA
+  Duration: 20 hours
+  
+- title: "Hydrological Modeling: An Introduction to Undergraduate Students"
+  description: >
+     Hydrological modeling and water resources systems; Examples and discussion 
+     of the use of models; Classification of models; Brief history of development 
+     of models; Rainfall-runoff models; Case studies.
+  date: "10/18/2012"
+  Institution: Federal University of Tocantins - UFT
+  Duration: 4 hours
+
+- title: "R Programming and Applications in Statistical Hydrology"
+  description: >
+     
+  date: "05/15/2024" 
+  Institution: Federal University of Minas Gerais
+  Duration: 12 hours
+
+
+- title: "R Programming and Applications in Statistical Hydrology"
+  description: >
+     
+  date: "08/29/2022" 
+  Institution: Brazilian Water Resources Association
+  Duration: 12 hours
+
+
+- title: "Retrieval, Manipulation, and Analysis of Hydrological Data Using R:
+          An Introduction"
+  description: >
+     Basic concepts of R; Retrieval of hydrometeorological from the web; Manipulation
+     of data using different R objects; Exploratory analysis (visualization); 
+     Flood frequency analysis using log-Normal distribution
+  date: "08/29/2022" 
+  Institution: University of Brasilia - UnB
+  Duration: 10 hours
+ 
+  
+#- title: INCT de Gestão Adaptativa.
+#  description: >
+#     This project aims at evaluating different methodologies to construct regional models
+#     of IDF curves in tre Brazilian territory.
+
+#- title: Secas e Cheias
+#  description: >
+#     This project aims at evaluating different methodologies to construct regional models
+#     of IDF curves in tre Brazilian territory.

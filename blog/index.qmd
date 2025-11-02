@@ -1,0 +1,16 @@
+---
+title: "Blog"
+listing:
+   contents: 
+      - post_3/*.qmd
+      - post_2/*.qmd
+      - post_1/*.qmd
+   sort: "date desc"    
+   categories: true
+#  contents: posts
+#  sort: "date desc"
+#  type: default
+#  categories: true
+#  feed:
+#    categories: [news, posts]
+---

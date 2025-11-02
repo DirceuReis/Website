@@ -1,0 +1,72 @@
+---
+title: "Dirceu S. Reis Jr."
+description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
+image: photos/Teatro_Nacional_BSB_DF.jpg
+page-navigation: false
+toc: false
+#sidebar: false
+page-layout: full
+
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 70%
+  links:
+    - icon: sun
+      text: Lab
+      href: https://www.github.com
+      target: _blank
+    - icon: globe
+      text: UnB profile
+      href: http://ft.unb.br/index.php?option=com_pessoas&view=pessoas&layout=perfil&id=155
+      target: _blank
+    - icon: envelope
+      text: E-mail
+      href: mailto:dirceu.reis@gmail.com    
+    - icon: LinkedIn
+      text: LinkedIn
+      href: https://www.linkedin.com/in/dirceu-reis-97715b13/
+      target: _blank
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/@dirceureis1     
+      target: _blank 
+    - text: "ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
+      href: https://orcid.org/0000-0003-1787-9763
+      target: _blank
+    - text: "Web of Science"
+      href: https://www.webofscience.com  
+      target: _blank
+    - text: "Scopus"
+      href: https://www.scopus.com/authid/detail.uri?authorId=8951798200
+      target: _blank
+    - text: "Google Scholar"
+      href: https://scholar.google.com.br/citations?user=6K4NyGwAAAAJ&hl=pt-BR
+      target: _blank
+    - text: "Research Gate"
+      href: https://www.researchgate.net/profile/Dirceu-Reis?ev=hdr_xprf
+      target: _blank
+    - text: "GitHub"
+      href: https://github.com/DirceuReis
+      target: _blank
+---
+
+::: {#hero-heading}
+Dirceu S. Reis Jr. is a professor in the Department of Civil and Environmental Engineering at University of Brasília, Brazil.
+
+## Education
+
+-   PhD in Environmental and Water Resources Systems, Cornell University
+-   MSc in Water Resources, COPPE (Federal University of Rio de Janeiro)
+-   BSc in Civil Engineering, Federal University of Rio de Janeiro
+
+## Current research interests
+
+-   Statistical modeling of hydrological extremes
+-   Impacts of climate and other changes in hydrology with focus on extremes
+-   Hydrological modeling
+-   Uso of climate information in water resource systems
+-   Uncertainty analysis in engineering
+:::
+
+------------------------------------------------------------------------
