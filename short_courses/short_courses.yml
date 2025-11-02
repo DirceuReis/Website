@@ -1,13 +1,12 @@
-- title: The presence of Heavy-tailed Distributions in hydrometeorologic Phenomena
+- title: "Heavy-tailed distributions in hydrometerological phenomena"
   description: >
-     Motivação para melhor compreender as caudas pesadas; Theoretical foundation
-     - statistical perspective; Heavy tail genesis; Inference challnges;
-     Heavy tail in hydrologic modelling
-  date: "09/12/2025 -- 09/13/2025"   
-  Institution: IRD/FUNCEME: Capacity building at ICID 2025
+      Motivation; Theoretical foundation; Genesis of heavy-tailed phenomena;
+      Inference challenges; Heavy-tailed distributions in hydrologic modelling
+      (jointly with Prof. Veber Costa)
+  date: "09/12/2025"
+  Institution: IRD/FUNCEME - ICID 2025
   Duration: 8 hours
-  
-- title: Applied Multivariate Analysis with focus on Precipitaiton and Streamflow
+- title: "Applied Multivariate Analysis with focus on Precipitaiton and Streamflow"
   description: >
      Principal Componentes Analysis; Canonical Correlaion Analysis; Multivariate
      Analysis of Variance; Multivariate Forecast Models.

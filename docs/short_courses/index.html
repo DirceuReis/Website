@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – Dirceu S. Reis Jr.</title>
+<title>Short Courses – Dirceu S. Reis Jr.</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-description','listing-Institution','listing-Duration',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-description","listing-date","listing-Institution","listing-Duration"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -162,11 +162,11 @@ window.Quarto = {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../short_courses/index.html"> 
+    <a class="nav-link active" href="../short_courses/index.html" aria-current="page"> 
 <span class="menu-text">Short Courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
+    <a class="nav-link" href="../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
@@ -184,15 +184,15 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QmF5ZXNpYW4=">Bayesian <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2xpbWF0ZQ==">Climate <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXJhbA==">General <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TUNNQw==">MCMC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3BhdGlhbCUyMGFuYWx5c2lz">Spatial analysis <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">Short Courses</h1>
 </div>
 
 
@@ -213,107 +213,273 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="R2VuZXJhbA==" data-listing-date-sort="1747796400000" data-listing-file-modified-sort="1748167852885" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<div class="thumbnail"><a href="../blog/post_3/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/post_3/index.html" class="no-external">New home for the blog</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">General</div>
-
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-description" data-direction="asc">
+        Description
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-Institution" data-direction="asc">
+        Institution
+      </option>
+      <option value="listing-Duration" data-direction="asc">
+        Duration
+      </option>
+    </select>
+  </div>
 </div>
-<div class="delink listing-description"><a href="../blog/post_3/index.html" class="no-external">
-I decided to start a new website and a new blog, something that I have more control over the design and structure
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/post_3/index.html" class="no-external">
-<div class="listing-date">
-May 21, 2025
-</div>
-<div class="listing-author">
-Dirceu S. Reis Jr.
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="U3BhdGlhbCUyMGFuYWx5c2lzJTJDQmF5ZXNpYW4=" data-listing-date-sort="1747537200000" data-listing-file-modified-sort="1747582109441" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
-<div class="thumbnail"><a href="../blog/post_2/index.html" class="no-external">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/post_2/index.html" class="no-external">Second post</a>
-</h3>
-<div class="listing-categories">
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('U3BhdGlhbCUyMGFuYWx5c2lz'); return false;">Spatial analysis</div>
+<th>
+<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Description</a>
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('QmF5ZXNpYW4='); return false;">Bayesian</div>
+<th>
+<a class="sort" data-sort="listing-Institution" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Institution</a>
+</th>
 
-</div>
-<div class="delink listing-description"><a href="../blog/post_2/index.html" class="no-external">
-This morning I was preparing myself for a long journey…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/post_2/index.html" class="no-external">
-<div class="listing-date">
-May 18, 2025
-</div>
-<div class="listing-author">
-Dirceu S. Reis Jr.
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TUNNQyUyQ0NsaW1hdGU=" data-listing-date-sort="1747537200000" data-listing-file-modified-sort="1747829468551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail"><a href="../blog/post_1/index.html" class="no-external">
+<th>
+<a class="sort" data-sort="listing-Duration" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Duration</a>
+</th>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</tr>
+</thead>
+<tbody class="list">
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/post_1/index.html" class="no-external">First post</a>
-</h3>
-<div class="listing-categories">
+<tr data-index="0" data-listing-date-sort="1757646000000" data-listing-title-sort="Heavy-tailed distributions in hydrometerological phenomena">
+<td>
+<span class="listing-date">2025</span>
+</td>
+<td>
+<span class="listing-title">Heavy-tailed distributions in hydrometerological phenomena</span>
+</td>
+<td>
+<span class="listing-description">Motivation; Theoretical foundation; Genesis of heavy-tailed phenomena; Inference challenges; Heavy-tailed distributions in hydrologic modelling (jointly with Prof.&nbsp;Veber Costa) </span>
+</td>
+<td>
+<span class="listing-Institution">IRD/FUNCEME - ICID 2025</span>
+</td>
+<td>
+<span class="listing-Duration">8 hours</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('TUNNQw=='); return false;">MCMC</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xpbWF0ZQ=='); return false;">Climate</div>
+<tr data-index="1" data-listing-date-sort="1733886000000" data-listing-title-sort="Applied Multivariate Analysis with focus on Precipitaiton and Streamflow">
+<td>
+<span class="listing-date">2024</span>
+</td>
+<td>
+<span class="listing-title">Applied Multivariate Analysis with focus on Precipitaiton and Streamflow</span>
+</td>
+<td>
+<span class="listing-description">Principal Componentes Analysis; Canonical Correlaion Analysis; Multivariate Analysis of Variance; Multivariate Forecast Models. </span>
+</td>
+<td>
+<span class="listing-Institution">FUNCEME</span>
+</td>
+<td>
+<span class="listing-Duration">16 hours</span>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="../blog/post_1/index.html" class="no-external">
+</tr>
 
+<tr data-index="2" data-listing-date-sort="1715742000000" data-listing-title-sort="R Programming and Applications in Statistical Hydrology">
+<td>
+<span class="listing-date">2024</span>
+</td>
+<td>
+<span class="listing-title">R Programming and Applications in Statistical Hydrology</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Institution">Federal University of Minas Gerais</span>
+</td>
+<td>
+<span class="listing-Duration">12 hours</span>
+</td>
 
+</tr>
 
+<tr data-index="3" data-listing-date-sort="1661742000000" data-listing-title-sort="R Programming and Applications in Statistical Hydrology">
+<td>
+<span class="listing-date">2022</span>
+</td>
+<td>
+<span class="listing-title">R Programming and Applications in Statistical Hydrology</span>
+</td>
+<td>
+<span class="listing-description">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Institution">Brazilian Water Resources Association</span>
+</td>
+<td>
+<span class="listing-Duration">12 hours</span>
+</td>
 
+</tr>
 
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/post_1/index.html" class="no-external">
-<div class="listing-date">
-May 18, 2025
-</div>
-<div class="listing-author">
-Dirceu S. Reis Jr.
-</div>
-</a>
-</div>
-</div>
-</div>
+<tr data-index="4" data-listing-date-sort="1661742000000" data-listing-title-sort="Retrieval, Manipulation, and Analysis of Hydrological Data Using R: An Introduction">
+<td>
+<span class="listing-date">2022</span>
+</td>
+<td>
+<span class="listing-title">Retrieval, Manipulation, and Analysis of Hydrological Data Using R: An Introduction</span>
+</td>
+<td>
+<span class="listing-description">Basic concepts of R; Retrieval of hydrometeorological from the web; Manipulation of data using different R objects; Exploratory analysis (visualization); Flood frequency analysis using log-Normal distribution </span>
+</td>
+<td>
+<span class="listing-Institution">University of Brasilia - UnB</span>
+</td>
+<td>
+<span class="listing-Duration">10 hours</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-date-sort="1535770800000" data-listing-title-sort="Storm Water Management: Introductory module - Hydrology">
+<td>
+<span class="listing-date">2018</span>
+</td>
+<td>
+<span class="listing-title">Storm Water Management: Introductory module - Hydrology</span>
+</td>
+<td>
+<span class="listing-description">Basic concepts; Main approaches to generate hydrographs; IDF curves; Precipitation reduction factors; Storm temporal distribution; Rational method; Effective rainfall; Generation of project hydrographs. </span>
+</td>
+<td>
+<span class="listing-Institution">ADASA</span>
+</td>
+<td>
+<span class="listing-Duration">20 hours</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-date-sort="1378004400000" data-listing-title-sort="Trend Detection in Hydrometeorological Variables">
+<td>
+<span class="listing-date">2013</span>
+</td>
+<td>
+<span class="listing-title">Trend Detection in Hydrometeorological Variables</span>
+</td>
+<td>
+<span class="listing-description">Description of the problem; Revision of statistical concepts; Analysis without and with temporal correlation and with long-term persistance; Regional analysis - false discovery rate and other techniques. </span>
+</td>
+<td>
+<span class="listing-Institution">Brazilian National Water Agency - ANA</span>
+</td>
+<td>
+<span class="listing-Duration">20 hours</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-date-sort="1350529200000" data-listing-title-sort="Hydrological Modeling: An Introduction to Undergraduate Students">
+<td>
+<span class="listing-date">2012</span>
+</td>
+<td>
+<span class="listing-title">Hydrological Modeling: An Introduction to Undergraduate Students</span>
+</td>
+<td>
+<span class="listing-description">Hydrological modeling and water resources systems; Examples and discussion of the use of models; Classification of models; Brief history of development of models; Rainfall-runoff models; Case studies. </span>
+</td>
+<td>
+<span class="listing-Institution">Federal University of Tocantins - UFT</span>
+</td>
+<td>
+<span class="listing-Duration">4 hours</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-date-sort="1199152800000" data-listing-title-sort="Improvements on the Design and Construction of Dams - Hydrology Foundations">
+<td>
+<span class="listing-date">2008</span>
+</td>
+<td>
+<span class="listing-title">Improvements on the Design and Construction of Dams - Hydrology Foundations</span>
+</td>
+<td>
+<span class="listing-description">Given to employees of the Secretary of Water Resources of the State of Ceará, Brazil. </span>
+</td>
+<td>
+<span class="listing-Institution">University of Fortaleza - UNIFOR</span>
+</td>
+<td>
+<span class="listing-Duration">28 hours</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-listing-date-sort="1167616800000" data-listing-title-sort="Numerical Modeling Visualization and Analysis Tools: Matlab Module">
+<td>
+<span class="listing-date">2007</span>
+</td>
+<td>
+<span class="listing-title">Numerical Modeling Visualization and Analysis Tools: Matlab Module</span>
+</td>
+<td>
+<span class="listing-description">MatLab as a tool for analysis and visualization on numerical modeling of the atmosphere. </span>
+</td>
+<td>
+<span class="listing-Institution">Funceme</span>
+</td>
+<td>
+<span class="listing-Duration">12 hours</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-listing-date-sort="1136080800000" data-listing-title-sort="Numerical Modeling Visualization and Analysis Tools: Matlab Module">
+<td>
+<span class="listing-date">2006</span>
+</td>
+<td>
+<span class="listing-title">Numerical Modeling Visualization and Analysis Tools: Matlab Module</span>
+</td>
+<td>
+<span class="listing-description">MatLab as a tool for analysis and visualization on numerical modeling of the atmosphere. </span>
+</td>
+<td>
+<span class="listing-Institution">Funceme</span>
+</td>
+<td>
+<span class="listing-Duration">12 hours</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
