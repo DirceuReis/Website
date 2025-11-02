@@ -52,7 +52,7 @@ about:
 ---
 
 ::: {#hero-heading}
-Dirceu S. Reis Jr. is a professor in the Department of Civil and Environmental Engineering at University of Brasília, Brazil.
+Dirceu S. Reis Jr. is a professor of Civil and Environmental Engineering at University of Brasília, Brazil.
 
 ## Education
 
