@@ -1,55 +1,55 @@
 ---
 title: "Teaching at University of Brasília"
+title-block-banner: photos/image_blog_option_1
 ---
+
 ## 2nd semester of 2025
 
 Undergraduate:
 
-- Transport phenomena
-- Introduction to Environmental Systems Analysis
+-   Transport phenomena
+-   Introduction to Environmental Systems Analysis
 
 Graduate:
 
-- Flood Studies
-
+-   Flood Studies
 
 ## 1st semester of 2025
 
 Undergraduate:
 
-- Transport phenomena
-- Introduction to Environmental Systems Analysis
+-   Transport phenomena
+-   Introduction to Environmental Systems Analysis
 
 Graduate:
 
-- Hydrological simulation
+-   Hydrological simulation
 
 ## 2nd semester of 2024
 
 Undergraduate:
 
-- Transport phenomena
-- Introduction to Environmental Systems Analysis
+-   Transport phenomena
+-   Introduction to Environmental Systems Analysis
 
 Graduate:
 
-- Flood studies
-
+-   Flood studies
 
 ## 1st semester of 2024
 
 Undergraduate:
 
-- Transport phenomena
-- Introduction to Environmental Systems Analysis
-- Modeling and simulation of environmental systems
+-   Transport phenomena
+-   Introduction to Environmental Systems Analysis
+-   Modeling and simulation of environmental systems
 
 ## 2nd semester of 2023
 
 Undergraduate:
 
-- Transport phenomena
+-   Transport phenomena
 
 Graduate:
 
-- Special topics in water resources I (Flood frequency analysis)
+-   Special topics in water resources I (Flood frequency analysis)

@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Dirceu S. Reis Jr."
+  page-footer: "This website was created with [Quarto](https://quarto.org/)."
   navbar:
     right:
       - href: index.qmd
@@ -21,8 +22,7 @@ website:
 format:
   html:
     theme:
-      - default
-      - brand
+      - united
     css: styles.css
     toc: true
 
