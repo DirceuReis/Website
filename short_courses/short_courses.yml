@@ -1,8 +1,7 @@
-- title: "Heavy-tailed distributions in hydrometerological phenomena"
+- title: "Heavy-tailed distributions in hydrometerological phenomena (jointly with Prof. Veber Costa)"
   description: >
       Motivation; Theoretical foundation; Genesis of heavy-tailed phenomena;
       Inference challenges; Heavy-tailed distributions in hydrologic modelling
-      (jointly with Prof. Veber Costa)
   date: "09/12/2025"
   Institution: IRD/FUNCEME - ICID 2025
   Duration: 8 hours
@@ -64,6 +63,13 @@
   date: "10/18/2012"
   Institution: Federal University of Tocantins - UFT
   Duration: 4 hours
+
+- title: "R Programming and Applications in Statistical Hydrology (jointly with Thiago Lappicy)"
+  description: >
+     
+  date: "08/25/2025" 
+  Institution: Brazilian Water Resources Association
+  Duration: 12 hours
 
 - title: "R Programming and Applications in Statistical Hydrology"
   description: >
