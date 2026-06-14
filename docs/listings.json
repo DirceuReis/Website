@@ -6,9 +6,9 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/post_1/index.html",
       "/blog/post_3/index.html",
-      "/blog/post_2/index.html",
-      "/blog/post_1/index.html"
+      "/blog/post_2/index.html"
     ]
   },
   {

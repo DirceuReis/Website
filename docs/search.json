@@ -4,14 +4,21 @@
     "href": "teaching.html",
     "title": "Teaching at University of Brasília",
     "section": "",
-    "text": "Undergraduate:\n\nTransport phenomena\nIntroduction to Environmental Systems Analysis\n\nGraduate:\n\nFlood Studies"
+    "text": "Undergraduate:\n\nApplied Hydrology\nIntroduction to Environmental Systems Analysis\n\nGraduate:\n\nApplied Hydrology"
+  },
+  {
+    "objectID": "teaching.html#st-semester-of-2026",
+    "href": "teaching.html#st-semester-of-2026",
+    "title": "Teaching at University of Brasília",
+    "section": "",
+    "text": "Undergraduate:\n\nApplied Hydrology\nIntroduction to Environmental Systems Analysis\n\nGraduate:\n\nApplied Hydrology"
   },
   {
     "objectID": "teaching.html#nd-semester-of-2025",
     "href": "teaching.html#nd-semester-of-2025",
     "title": "Teaching at University of Brasília",
-    "section": "",
-    "text": "Undergraduate:\n\nTransport phenomena\nIntroduction to Environmental Systems Analysis\n\nGraduate:\n\nFlood Studies"
+    "section": "2nd semester of 2025",
+    "text": "2nd semester of 2025\nUndergraduate:\n\nTransport phenomena\nIntroduction to Environmental Systems Analysis\n\nGraduate:\n\nFlood Studies"
   },
   {
     "objectID": "teaching.html#st-semester-of-2025",
@@ -56,6 +63,20 @@
     "text": "I decided to start a new website and a new blog, something that I have more control over the design and structure"
   },
   {
+    "objectID": "blog/post_1/index.html",
+    "href": "blog/post_1/index.html",
+    "title": "First post",
+    "section": "",
+    "text": "I have worked on and off on this new website for a long time, but couldn’t find the time complete it properly nor had the guts to publish it in its sketchy form. As time past, the incomplete task lead to as uneasy feeling, especially because of the lack of a proper space to share ideas with students, friends and collaborators.\nMy first experience blogging during the 2016-2022 period taught me a lot of things and gave me the chance to exercise writing about technical aspects of my profession in a more casual style. It also provided a way of communicating with my students and served as a repository of technical explanations that I believed helped our advisor-advisee relationships. Moreover, having a place to blog provides an excellent opportunity the sharp and test ideas that originally sound good, but don’t necessarily pass the test of writing.\nThat is the reason I decided to publish this blog within this unfinished website. I hope I can keep up with the goal of publishing on a weekly basis, which sounds very challenging to me, but I usually like challenges."
+  },
+  {
+    "objectID": "blog/post_1/index.html#new-place-to-share-ideas",
+    "href": "blog/post_1/index.html#new-place-to-share-ideas",
+    "title": "First post",
+    "section": "",
+    "text": "I have worked on and off on this new website for a long time, but couldn’t find the time complete it properly nor had the guts to publish it in its sketchy form. As time past, the incomplete task lead to as uneasy feeling, especially because of the lack of a proper space to share ideas with students, friends and collaborators.\nMy first experience blogging during the 2016-2022 period taught me a lot of things and gave me the chance to exercise writing about technical aspects of my profession in a more casual style. It also provided a way of communicating with my students and served as a repository of technical explanations that I believed helped our advisor-advisee relationships. Moreover, having a place to blog provides an excellent opportunity the sharp and test ideas that originally sound good, but don’t necessarily pass the test of writing.\nThat is the reason I decided to publish this blog within this unfinished website. I hope I can keep up with the goal of publishing on a weekly basis, which sounds very challenging to me, but I usually like challenges."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -65,9 +86,9 @@
   {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
-    "title": "Blog da CT Hidrologia Estatística",
+    "title": "Dirceu Reis’s Blog",
     "section": "",
-    "text": "New home for the blog\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\nMay 21, 2025\n\n\nDirceu S. Reis Jr.\n\n\n\n\n\n\n\n\n\n\n\n\nSecond post\n\n\n\nSpatial analysis\n\nBayesian\n\n\n\n\n\n\n\n\n\nMay 18, 2025\n\n\nDirceu S. Reis Jr.\n\n\n\n\n\n\n\n\n\n\n\n\nFirst post\n\n\n\nMCMC\n\nClimate\n\n\n\n\n\n\n\n\n\nMay 18, 2025\n\n\nDirceu S. Reis Jr.\n\n\n\n\n\nNo matching items"
+    "text": "First post\n\n\n\nPersonal\n\nTechnical Commission on Statistical hydrology\n\n\n\n\n\n\n\n\n\nJun 14, 2026\n\n\nDirceu S. Reis Jr.\n\n\n\n\n\n\n\n\n\n\n\n\nNew home for the blog\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\nMay 21, 2025\n\n\nDirceu S. Reis Jr.\n\n\n\n\n\n\n\n\n\n\n\n\nSecond post\n\n\n\nSpatial analysis\n\nBayesian\n\n\n\n\n\n\n\n\n\nMay 18, 2025\n\n\nDirceu S. Reis Jr.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/post_2/index.html",
