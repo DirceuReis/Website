@@ -1,16 +1,15 @@
 ---
-title: "First post"
+title: "First post in a new home"
 author: "Dirceu S. Reis Jr."
 date: "06/14/2026"
 image: true
 categories: 
   - Personal
-  - Technical Commission on Statistical hydrology 
 ---
 
 ## New place to share ideas
 
-I have worked on and off on this new website for a long time, but couldn't find the time complete it properly nor had the guts to publish it in its sketchy form. As time past, the incomplete task lead to as uneasy feeling, especially because of the lack of a proper space to share ideas with students, friends and collaborators. 
+I have worked on and off on this new website for a long time, but couldn't find the time to complete it properly nor had the guts to publish it in its sketchy form. As time passed, the incomplete task led to an uneasy feeling, especially because of the lack of a proper space to share ideas with students, friends and collaborators. 
 
 My first experience blogging during the 2016-2022 period taught me a lot of things and gave me the chance to exercise writing about technical aspects of my profession in a more casual style. It also provided a way of communicating with my students and served as a repository of technical explanations that I believed helped our advisor-advisee relationships. Moreover, having a place to blog provides an excellent opportunity the sharp and test ideas that originally sound good, but don't necessarily pass the test of writing.
 

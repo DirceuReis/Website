@@ -2,8 +2,6 @@
 title: "Dirceu Reis's Blog"
 listing:
    contents: 
-      - post_3/*.qmd
-      - post_2/*.qmd
       - post_1/*.qmd
    sort: "date desc"    
    categories: true
