@@ -6,6 +6,7 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/post_3/index.html",
       "/blog/post_1/index.html"
     ]
   },

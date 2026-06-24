@@ -58,9 +58,9 @@
   {
     "objectID": "blog/post_3/index.html",
     "href": "blog/post_3/index.html",
-    "title": "New home for the blog",
+    "title": "A great trip to João Pessoa",
     "section": "",
-    "text": "I decided to start a new website and a new blog, something that I have more control over the design and structure"
+    "text": "Last week I had the chance to spend one and a half days in the beautiful city of João Pessoa/Paraíba, on a trip related to a project that aims at updating IDF curves for Brazil and estimating possible changes in the future due to climate change. Professor Cristiano Almeida and his team from the Federal University of Paraíba (UFPB) have collaborated with the project by carrying out a quality analysis of sub-daily precipitation data in Brazil and developing a new database with information from various institutions in the country. The details of this IDF project will be discussed in other posts. Here I just want to share the great time I had there.\nAs we had to deliver three laptops to the research team at UFPB as part of the project deal, Cristiano made the following proposal to our team: deliver the laptops in person, give a short course on the R language and its use in statistical hydrology, and have a meeting to discuss how to improve the collaboration between the two groups. I thought that would make total sense and agreed to him, but had to take Tomás Duval with me, a MSc stdent of mine, who has been working on the project and has already exchanged ideas, questions and answers with some members of the Cristiano’s team. Without Tomás, I am afraid giving the course on R wouldn’t be possible due to my tight agenda.\nTomás gave a 6-hour set of lectures in R to students and researchers from UFPB the day before my arrival and continued through the morning of the next day. He prepared a nice set of activities for a 10-hour introductory course in statistical hydrology, with a focus on how to use the R language to carry out statistical analysis in hydrology, more specifically on how to obtain a flood frequency curve using local data and employing maximum likelihood estimators. In the afternoon we had the chance to know more about what their team has been working on regarding the general theme of intense precipitation, and we were able to identify specific topics of possible collaboration.\nI would like to thank professor Cristiano and his students and colleagues at UFPB for their hospitality. Tomás and I had a great time."
   },
   {
     "objectID": "blog/post_1/index.html",
@@ -88,14 +88,14 @@
     "href": "blog/index.html",
     "title": "Dirceu Reis’s Blog",
     "section": "",
-    "text": "First post in a new home\n\n\n\nPersonal\n\n\n\n\n\n\n\n\n\nJun 14, 2026\n\n\nDirceu S. Reis Jr.\n\n\n\n\n\nNo matching items"
+    "text": "A great trip to João Pessoa\n\n\n\nR language course\n\nIDF curves\n\n\n\n\n\n\n\n\n\nJun 24, 2026\n\n\nDirceu S. Reis Jr.\n\n\n\n\n\n\n\n\n\n\n\n\nFirst post in a new home\n\n\n\nPersonal\n\n\n\n\n\n\n\n\n\nJun 14, 2026\n\n\nDirceu S. Reis Jr.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/post_2/index.html",
     "href": "blog/post_2/index.html",
-    "title": "Second post",
+    "title": "A general overview of Intensity-Duration-frequency Curves",
     "section": "",
-    "text": "This morning I was preparing myself for a long journey…"
+    "text": "Intensity-Duration-Frequency (IDF) curves are mathematical models used to describe the statistical behavior of intense precipitation at a point. IDF curves provide the average precipitation intensity as a function of duration and return period, and are the basis for the definition of They are the basis for the design of many engineering works, such as culverts, etc.\nIn Brazil, and in many other countries around the world, the average precipitation intensity \\(I\\) over a certain period of time \\(t\\) for a given return period \\(T\\) is usually parameterized as follows,\n\\[I = \\frac{aT^b}{(t+c)^d}\\] where \\(a\\), \\(b\\), \\(c\\), and \\(d\\) are parameters that must be estimated.\n\na = 1574.7\nb = 0.207\nc = 11\nd = 0.884\ntd = 1\ni &lt;- c(1:10:400)\n\nWarning in 1:10:400: numerical expression has 10 elements: only the first used\n\nF = 1 - (td + c)^(-d/b)*(a/i)^(1/b)\nplot(F)"
   },
   {
     "objectID": "index.html",

@@ -1,11 +1,29 @@
 ---
-title: "Second post"
+title: "A general overview of Intensity-Duration-frequency Curves"
 author: "Dirceu S. Reis Jr."
-date: "05/18/2025"
+date: "06/16/2026"
 image: true
 categories: 
-  - Spatial analysis
-  - Bayesian
+  - Precipitation
+  - Intense precipitation
 ---
 
-This morning I was preparing myself for a long journey...
+Intensity-Duration-Frequency (IDF) curves are mathematical models used to describe the statistical behavior of intense precipitation at a point. IDF curves provide the average precipitation intensity as a function of duration and return period, and are the basis for the definition of They are the basis for the design of many engineering works, such as culverts, etc.
+
+In Brazil, and in many other countries around the world, the average precipitation intensity $I$ over a certain period of time $t$ for a given return period $T$ is usually parameterized as follows,
+
+$$I = \frac{aT^b}{(t+c)^d}$$
+where $a$, $b$, $c$, and $d$ are parameters that must be estimated.
+
+```{r}
+a = 1574.7
+b = 0.207
+c = 11
+d = 0.884
+td = 1
+i <- c(1:10:400)
+F = 1 - (td + c)^(-d/b)*(a/i)^(1/b)
+plot(F)
+```
+
+
