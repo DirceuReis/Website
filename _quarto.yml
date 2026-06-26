@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Dirceu S. Reis Jr."
+  google-analytics: "G-KD4MJ3B3L4"
   page-footer: "This website was created with [Quarto](https://quarto.org/)."
   navbar:
     right:

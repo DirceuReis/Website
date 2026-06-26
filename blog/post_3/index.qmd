@@ -15,3 +15,16 @@ As we had to deliver three laptops to the research team at UFPB as part of the p
 Tomás gave a 6-hour set of lectures in R to students and researchers from UFPB the day before my arrival and continued through the morning of the next day. He prepared a nice set of activities for a 10-hour introductory course in statistical hydrology, with a focus on how to use the R language to carry out statistical analysis in hydrology, more specifically on how to obtain a flood frequency curve using local data and employing maximum likelihood estimators. In the afternoon we had the chance to know more about what their team has been working on regarding the general theme of intense precipitation, and we were able to identify specific topics of possible collaboration.
 
 I would like to thank professor Cristiano and his students and colleagues at UFPB for their hospitality. Tomás and I had a great time.
+
+::: {layout-nrow=2}
+![Day 1: Tomás Duval starts with some basic R concepts](Day_1_Tomas.png)
+
+![Day 2: Course participants](Day_2_Participants.png)
+
+
+
+![Day 1: Tomas at full speed with a laptot and a tablet](Day_1_Tomas_explaining.png)
+
+![Day 2: Dirceu providing some background on maximum likelihood estimators and te Delta method](Day_2_Dirceu.png)
+
+:::
